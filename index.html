@@ -1,12 +1,101 @@
 <!DOCTYPE html>
-<html lang="Pt">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha pagina</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#">
+            <img src="img/jdev-semfundo.png" width="180px" >
+        </a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="navbar-item ">
+                    <a href="#Quem-somos" class="nav-link">Quem somos</a>
+                </li>
+                <li class="navbar-item ">
+                    <a href="#projetos" class="nav-link">Projetos</a>
+                </li>
+                <li class="navbar-item ">
+                    <a href="#parceiros" class="nav-link">Parceiros</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="Quem-somos">
+
+        <div class="container-fluid text-center margin ">
+            <h3>Quem somos</h3>
+            <img src="img/Logo-para redes.jpg" class="rounded-circle" width="400">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et iaculis nunc.
+                Sed eget turpis in nunc pulvinar eleifend pellentesque ac metus. Praesent ornare vitae ligula ut laoreet.
+                Suspendisse et turpis sed nunc luctus lacinia et a est. Nulla dapibus rutrum commodo. Nulla facilisi.
+                Pellentesque fringilla, elit vel placerat dapibus, dolor est posuere tellus, vel feugiat urna dui a massa. 
+                Donec in nibh in turpis eleifend sagittis porta nec nibh. Vivamus iaculis turpis eros, interdum porta
+                mi eleifend sit amet. Mauris id suscipit augue, in posuere nibh. Sed magna est, faucibus quis scelerisque eget,
+                 luctus at ipsum. Mauris suscipit vehicula vestibulum. Phasellus sit amet venenatis massa, 
+                nec sollicitudin nulla. Nunc elit nulla, convallis id molestie non, congue non orci.
+                Proin sit amet scelerisque est.</p>
+        </div>
+
+    </section>
+
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiro">
+
+            <h3>Parceiros</h3>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/Logo-para redes.jpg" class="rounded-circle" width="100%" >
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/Logo-para redes.jpg" class="rounded-circle" width="100%" >
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/Logo-para redes.jpg" class="rounded-circle" width="100%" >
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="projetos">
+        <div class="container-fluid text-center margin projetos">
+            <h3>Projetos</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Ut et urna vitae ante tempus aliquet quis at libero. 
+                            Vivamus dictum elementum consectetur</p>
+                        <img src="img/Logo-para redes.jpg"  width="100%" >
+                    </div>
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Ut et urna vitae ante tempus aliquet quis at libero. 
+                            Vivamus dictum elementum consectetur</p>
+                        <img src="img/Logo-para redes.jpg"  width="100%" >
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center rodape margin">
+        Desenvolvido por JV DV
+
+    </footer>
+
+   
     
 </body>
 </html>
